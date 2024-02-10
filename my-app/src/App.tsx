@@ -66,7 +66,9 @@ function App() {
     <>
       {loading && <p>Loading advice...</p>}
       {!loading && slip && (
+        
         <div className="advice-container">
+          
           <h3>Advice #{slip.id}</h3>
           <p>{`"${slip.advice}"`}</p>
           <img src={DesktopDivider} className="desktop-divider" alt="desktop-divider" />
