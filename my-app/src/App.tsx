@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css';
 import DesktopDivider from './images/pattern-divider-desktop.svg'
 import MobileDivider from './images/pattern-divider-mobile.svg'
